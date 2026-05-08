@@ -8,10 +8,12 @@
 Camoufox is an open source browser built for AI agents. It is lightweight, mimics a human browser, and is optimized for LLM automation.
 </p>
 
-<p align="center">
+<div align="center">
   <a href="https://trendshift.io/repositories/12224" target="_blank">
-  <img src="https://trendshift.io/api/badge/repositories/12224" alt="daijro%2Fcamoufox | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a><br>
-</p>
+    <img src="https://trendshift.io/api/badge/repositories/12224" alt="daijro%2Fcamoufox | Trendshift" width="250" height="55"/>
+  </a><br>
+  <a href="https://pepy.tech/projects/camoufox"><img src="https://static.pepy.tech/personalized-badge/camoufox?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads"></a>
+</div>
 
 ---
 
@@ -61,6 +63,13 @@ Camoufox is an open source browser built for AI agents. It is lightweight, mimic
       <a href="https://serpapi.com/use-cases/web-search-api?utm_source=camoufox">SerpApi, a web search API</a> to scrape Google and other search engines with a simple API.
     </td>
   </tr>
+</table>
+
+### Proxy Sponsors
+
+Camoufox is intended to be used with rotating proxies (preferably residential IPs). Check out these providers:
+
+<table>
   <tr>
     <td width="25%" align="center" valign="middle">
       <a href="https://www.thordata.com/?ls=github&lk=camoufox" target="_blank">
@@ -84,7 +93,7 @@ Camoufox is an open source browser built for AI agents. It is lightweight, mimic
     </td>
     <td valign="middle">
       <b>🚀 Camoufox × ProxyEmpire</b><br>
-      Running Camoufox? Your proxy layer decides whether you scale — or get blocked.<br><br>
+      Running Camoufox? Your proxy layer decides whether you scale — or get blocked.<br>
       <a href="https://proxyempire.io/?ref=camoufox&utm_source=camoufox">ProxyEmpire</a> delivers:<br>
       • 🌍 30M+ Residential IPs (170+ countries)<br>
       • 📱 4G/5G Mobile Proxies<br>
@@ -92,7 +101,7 @@ Camoufox is an open source browser built for AI agents. It is lightweight, mimic
       • ⚡ Unlimited Concurrent Sessions<br>
       • 🎯 Precise geo-targeting<br>
       • HTTP, HTTPS & SOCKS5 Support<br>
-      Built for scraping, automation, and high-stealth workflows.<br><br>
+      Built for scraping, automation, and high-stealth workflows.<br>
       <b>🔥 Exclusive Offer</b> - Use code <b>Camoufox30</b><br>
       Get <b>30% recurring discount</b> (not just first month). Upgrade your proxies. Reduce bans. Scale properly
     </td>
@@ -116,7 +125,18 @@ Camoufox is an open source browser built for AI agents. It is lightweight, mimic
       </a>
     </td>
     <td valign="middle">
-      <a href="https://proxy-seller.com/?partner=1W5MMSYEXKKTUK">Proxy-Seller</a> - 220+ GEOs, $0.70 per GB, 24/7 Support. Residential/ISP Proxy IPs (IPv4/IPv6).<br>Use code CAMOUFOX for 15% off.
+      <a href="https://proxy-seller.com/?partner=1W5MMSYEXKKTUK">
+        <a href="https://proxy-seller.com/?partner=1W5MMSYEXKKTUK">Proxy-Seller</a> - Premium Proxies for AI Agents, Scraping & Automation 🎁 Use code <strong>CAMOUFOX for 15% OFF</strong> IPv4, IPv6, ISP & Residential proxies + 10% OFF Mobile<br>
+        <strong>Why Choose Proxy-Seller?</strong><br>
+        • 🌍 40M+ IPs across 220+ countries with city/ISP-level targeting<br>
+        • 📶 Residential, ISP, Datacenter (IPv4/IPv6) & 4G/5G Mobile proxies<br>
+        • ⚡ Up to 1 Gbps speed with 99% uptime<br>
+        • 🔄 Flexible rotation — time-based, request-based, or sticky sessions<br>
+        • 🛠️ Ready-made API for Python, Node.js, PHP, Java & Golang<br>
+        • 🔒 SOCKS5 & HTTP(S) with login/pass or IP whitelisting<br>
+        • 🎭 Perfect pairing with Camoufox for stealth automation<br>
+        • 🕐 24/7 support + 24-hour refund & replacement policy<br>
+        Trusted by 500,000+ clients since 2014. Built for scraping, AI agents, ad verification, and SEO automation.
     </td>
   </tr>
   <tr>
@@ -126,9 +146,9 @@ Camoufox is an open source browser built for AI agents. It is lightweight, mimic
       </a>
     </td>
     <td valign="middle">
-      <a href="https://www.rapidproxy.io/?ref=daijro">RapidProxy</a> - Power Your Data with Premium Proxies<br>
+      <a href="https://www.rapidproxy.io/?ref=daijro">RapidProxy</a> - Power Your Data with Premium Proxies.<br>
       🎁 Try proxies for free  + Use code <strong>RAPID10</strong> for <strong>10% OFF</strong>
-      <br><br>
+      <br>
       <strong>Why Choose RapidProxy?</strong><br>
       • 🌍 90M+ IPs in 200+ countries & regions<br>
       • ♾️ No expiration on traffic — use anytime, no pressure<br>
@@ -137,6 +157,24 @@ Camoufox is an open source browser built for AI agents. It is lightweight, mimic
       • 📍 City-level targeting for precise geo access<br>
       • 🔄 Flexible session control tailored to your needs<br>
       Don’t miss out — start your free trial today and experience fast, stable, and scalable proxy performance with <a href="https://www.rapidproxy.io/?ref=daijro">RapidProxy</a>.
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" align="center" valign="middle">
+      <a href="https://www.swiftproxy.net/?ref=daijro" target="_blank">
+        <img width="380" alt="swiftproxy" src="https://github.com/user-attachments/assets/2f351c5e-f128-4478-83ff-46a261bea221"/>
+      </a>
+    </td>
+    <td valign="middle">
+      <a href="https://www.swiftproxy.net/?ref=daijro">Swiftproxy</a> - <strong>High-Performance Residential Proxies for Scalable Data Collection</strong><br>
+      Built for developers who need <strong>reliable</strong>, anti-detection proxy infrastructure. Swiftproxy delivers stable connections, high success rates, and flexible control for large-scale scraping and automation.<br>
+      • 🌍 195+ locations with ethically sourced residential IPs<br>
+      • 🔄 <strong>Rotating</strong> & <strong>sticky</strong> sessions with precise geo-targeting<br>
+      • ⚡ Optimized for <strong>anti-ban</strong> & <strong>high success rate</strong><br>
+      • 🔌 HTTP / HTTPS / SOCKS5 support<br>
+      • 🧪 <strong>Free 500MB trial</strong> for testing<br>
+      • 💸 <strong>Special discount</strong> code for Camoufox users: <strong>PROXY90 - 10%</strong><br>
+      Best for: Web scraping, automation, multi-accounting, and large-scale data extraction
     </td>
   </tr>
 </table>
