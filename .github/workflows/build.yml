@@ -103,13 +103,20 @@ jobs:
 
       - name: Create swap space
         run: |
-          sudo fallocate -l 16G /swapfile
+          # FIX (AEGIS/B3): el build de 16 GB RAM moria por presion de memoria
+          # (SIGTERM 143 a mitad de compilacion). Hay 115 GB de disco libres, asi
+          # que ampliamos el swap a 32 GB como red de seguridad anti-OOM.
+          sudo fallocate -l 32G /swapfile
           sudo chmod 600 /swapfile
           sudo mkswap /swapfile
           sudo swapon /swapfile
           free -h
 
       - name: Build
+        env:
+          # FIX (AEGIS/B3): Rust es el mayor consumidor de RAM en el build; limitar
+          # sus jobs baja el pico de memoria y evita el SIGTERM por colapso de la VM.
+          CARGO_BUILD_JOBS: "2"
         run: python3 ./multibuild.py --target ${{ matrix.target }} --arch ${{ matrix.arch }}
 
       - name: Upload artifacts
