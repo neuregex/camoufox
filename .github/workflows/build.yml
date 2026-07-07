@@ -10,16 +10,11 @@ jobs:
   build:
     runs-on: ubuntu-24.04
     strategy:
+      fail-fast: false
       matrix:
-        target: [linux, windows, macos]
-        arch: [x86_64, arm64, i686]
-        exclude:
-          # Fails (.mozbuild does not include clang++-cl)
-          - target: windows
-            arch: arm64
-          # Unsuported
-          - target: macos
-            arch: i686
+        # AEGIS fork: solo Windows x86_64 (aisla nuestro target de fallos de otros).
+        target: [windows]
+        arch: [x86_64]
 
     steps:
       - name: Maximize build space
