@@ -87,7 +87,15 @@ jobs:
 
       - name: Setup and bootstrap
         run: |
-          make setup-minimal
+          # FIX (AEGIS): en un runner de GitHub, actions/checkout deja un .git en
+          # la raiz del repo. `setup-minimal` (pensado SOLO para docker, sin git)
+          # hace que el `git clean -fdx && git reset --hard unpatched` de patch.py
+          # escale a ESE .git y borre toda la fuente de Firefox (untracked) ->
+          # "./mach: not found". `make setup` crea un git ANIDADO en la carpeta de
+          # fuente con el tag `unpatched` que patch.py espera, aislando el reset.
+          git config --global user.email "build@aegis.local"
+          git config --global user.name "AEGIS Build"
+          make setup
           make mozbootstrap
           mkdir -p dist
 
